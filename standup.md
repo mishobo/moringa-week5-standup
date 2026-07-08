@@ -48,3 +48,13 @@
         }            
     }
     ```
+3. Setup Jenkins job
+   - New item
+   - item type pipeline: week5-standup
+   - configuration: 
+      - pipeline: Pipeline from script from SCM
+      - SCM: GIT
+      - Repository URL: https://github.com/mishobo/moringa-week5-standup
+      - Branch Specifier: feat/vm-jenkinspipeline
+      - Apply & save
+      - run build pipeline manually to test
